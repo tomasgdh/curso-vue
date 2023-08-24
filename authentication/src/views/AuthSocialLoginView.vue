@@ -62,10 +62,10 @@
                 const credential =
                 GithubAuthProvider.credentialFromResult(result);
                 const token = credential?.accessToken;
-                alert("Twitter Exito");
+                alert("Github Exito");
             })
             .catch((error) => {
-                alert("Twitter Error:" + error.message);
+                alert("Github Error:" + error.message);
             });
     };
 </script>
