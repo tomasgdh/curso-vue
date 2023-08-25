@@ -1,9 +1,6 @@
 <template>
-<h1>Auth AWS</h1>
+  <h1>Auth AWS</h1>
 </template>
-<script lang="ts" setup>
+<script lang="ts" setup></script>
 
-</script>
-
-<style scoped>
-</style>
+<style scoped></style>

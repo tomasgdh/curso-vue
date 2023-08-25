@@ -1,10 +1,10 @@
 <template>
-    <h1>Auth Azure</h1>
-    <button @click="login">Login</button>
+  <h1>Auth Azure</h1>
+  <!-- <button @click="login">Login</button> -->
 </template>
 
 <script lang="ts" setup>
-    import { PublicClientApplication } from "@azure/msal-browser";
+/*   import { PublicClientApplication } from "@azure/msal-browser";
     import { onMounted } from "vue";
     import AzureService from "../service/AzureService";
 
@@ -26,7 +26,7 @@
             .catch((error) => {
                 alert(error);
             });
-    };
+    };*/
 </script>
 
 <style scoped></style>
