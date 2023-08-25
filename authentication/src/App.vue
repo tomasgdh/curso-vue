@@ -5,7 +5,9 @@
         <router-link :to="{ name: 'home' }">HOME</router-link> | 
         <router-link :to="{ name: 'auth' }">Auth Backend</router-link> | 
         <router-link :to="{ name: 'firebase' }">Auth Firebase</router-link> | 
-        <router-link :to="{ name: 'authsocial' }">Auth Social</router-link>
+        <router-link :to="{ name: 'authsocial' }">Auth Social</router-link> | 
+        <router-link :to="{ name: 'authaws' }">Auth AWS</router-link> | 
+        <router-link :to="{ name: 'authazure' }">Auth Azure</router-link>
     </nav>
     <div>
         <a href="https://vitejs.dev" target="_blank">

@@ -3,6 +3,8 @@ import HomeView from '../views/HomeView.vue'
 import AuthView from '../views/AuthView.vue'
 import AuthFirebaseView from '../views/AuthFirebaseView.vue'
 import AuthSocialLoginView from '../views/AuthSocialLoginView.vue'
+import AuthAwsView from '../views/AuthAwsView.vue'
+import AuthAzureView from '../views/AuthAzureView.vue'
 
 const routes: Array<RouteRecordRaw> = [
     {
@@ -25,7 +27,16 @@ const routes: Array<RouteRecordRaw> = [
         name: "authsocial",
         component: AuthSocialLoginView,
     },
-   
+    {
+        path: "/authaws",
+        name: "authaws",
+        component: AuthAwsView,
+    },
+    {
+        path: "/authazure",
+        name: "authazure",
+        component: AuthAzureView,
+    },
 ];
 
 const router = createRouter({

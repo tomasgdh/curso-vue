@@ -21,4 +21,4 @@ datos:
   "password": "12345678"
 }
 
-3. # Login Social: todo ataves de Firebase.
+3. # Login Social: todo a traves de Firebase.
