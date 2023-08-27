@@ -17,8 +17,8 @@
 [POST] 127.0.0.1:8000/api/auth/register    -> Crear usuario por 
 POST pasando en el body en json enviar name, email y password
 {
-  "name": "tomasgdh",
-  "email":"test@test.com",
+  "name": "User 3",
+  "email":"test3@test.com",
   "password":"12345678"
 }
 
@@ -27,6 +27,24 @@ POST pasando en el body en json enviar name, email y password
   "email":"test@test.com",
   "password":"12345678"
 }
+
+response ok:
+{
+  "status": true,
+  "message": "User Created Successfully",
+  "token": "4|Acnfkg69dwo9s5QxqrUEk2YNOYICwF0EwSx8JdDk"
+}
+response Not ok:
+{
+  "status": false,
+  "message": "validation error",
+  "errors": {
+    "email": [
+      "The email has already been taken."
+    ]
+  }
+}
+
 [GET] 127.0.0.1:8000/api/note          -> Leer notas del usuario 
 autenticado
 en el header agregar "Authoritation" y en value = "Bearer <token>"
